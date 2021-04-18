@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("rajeshgheware/nodejsapp")
+        app = docker.build("brainupgrade-in/nodejsapp")
     }
 
     stage('Test image') {
