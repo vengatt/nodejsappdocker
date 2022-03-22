@@ -8,6 +8,7 @@ WORKDIR /app
 COPY  main.js package.json /app/
 
 RUN ["npm","install"]
+ENTRYPOINT ["sh"]
 CMD ["npm", "start"]
 
 #EXPOSE 8000
