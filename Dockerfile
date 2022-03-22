@@ -8,6 +8,6 @@ WORKDIR /app
 COPY  main.js package.json /app/
 
 RUN ["npm","install"]
-#CMD ["npm", "start"]
+CMD ["npm", "start"]
 
 #EXPOSE 8000
