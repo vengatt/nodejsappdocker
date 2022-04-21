@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("ninjacloud05/nodejsapp")
+        app = docker.build("vengatt/nodejsapp")
     }
 
     stage('Test image') {
